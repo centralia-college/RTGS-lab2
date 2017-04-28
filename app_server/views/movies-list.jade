@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  .row.list-group
+   .col-xs-12.list-group-item
+      h4
+         a(href="/movie") Sonic the Hedgehog
+         small &nbsp
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star-empty
+            span.glyphicon.glyphicon-star-empty
+         span.badge.pull-right.badge-default Not Rated
+      img(src='images/MV5BMTM2NjQxMzE0MV5BMl5BanBnXkFtZTcwODQ0OTQyMQ@@._V1_.jpg')
+      p.year_released 1996 
+      p.main_actors Martin Burke, Lainie Frasier, Bill Wise, Edwin Neal, Gary Lipkowitz
+      p
+         span.label.label-warning Animation
+         &nbsp;
+         span.label.label-warning Animated Action
+         &nbsp;
+         span.label.label-warning Animated Adventure
+         &nbsp;
+
